@@ -7,9 +7,9 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Rahul',
-  role: 'React Tutor',
+  role: 'Your React Tutor',
   description:
-    'I teach React to the Beginners and working professionals, I take one-on-one online classes', 
+    'I teach React to the Beginners and working professionals who aspire to become React frontend developers, I take one-on-one online classes', 
   resume: 'https://example.com',
   social: {
     //linkedin: 'https://linkedin.com',
