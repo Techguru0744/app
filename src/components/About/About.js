@@ -2,6 +2,8 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
+import logo from '/Users/gunnargodara/Desktop/CodeFolder/react-portfolio/src/sq.svg' ;
+
 
 const About = () => {
   const { name, role, description, resume, social } = about
@@ -16,12 +18,22 @@ const About = () => {
 
       {role && <h2 className='about__role'>{role}.</h2>}
       <p className='about__desc'>{description && description}</p>
+     
+      { 
+         <ul>
+         <li><img src={logo} className='list_icon' /> 1-on-1 online classes</li>
+         <li><img src={logo} className='list_icon' /> Alternate day classes</li>
+         <li><img src={logo} className='list_icon' /> Leacture with project</li>
+         <li><img src={logo} className='list_icon' /> Small coding assignments in the class</li>
+       </ul> 
+
+      }
 
       <div className='about__contact center'>
         {resume && (
           <a href={resume}>
             <span type='button' className='btn btn--outline'>
-              Resume
+              Curriculum
             </span>
           </a>
         )}

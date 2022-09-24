@@ -10,7 +10,7 @@ const about = {
   role: 'Your React Tutor',
   description:
     'I teach React to the Beginners and working professionals who aspire to become React frontend developers, I take one-on-one online classes', 
-  resume: 'https://example.com',
+  resume: 'https://drive.google.com/file/d/1xzKdwSZiWgHGZMp4R76l74ewWtegXegW/view?usp=sharing',
   social: {
     //linkedin: 'https://linkedin.com',
     github: 'https://github.com',
@@ -45,14 +45,6 @@ const projects = [
     livePreview: 'https://github.com',
   },
 
-  {
-    name: 'Project 4',
-    description:
-      '4Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
 ]
 
 const skills = [
@@ -61,15 +53,7 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  
 ]
 
 const contact = {
